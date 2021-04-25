@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func main() {
+    p := func[T1 any](ele T1) {
+	    fmt.Println(ele)
+    })
+
+    p(1)
+}
